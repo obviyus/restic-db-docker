@@ -1,3 +1,3 @@
 FROM restic/restic:latest
 
-RUN apk add --no-cache sqlite3 redis-cli
+RUN apk --update add --no-cache sqlite redis
